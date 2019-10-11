@@ -83,9 +83,10 @@ class LicenceAdmin(
     ]
     list_filter = [
         'niw', 'sn', 'remarks', 'software', 'property_of',
-        'licence_type', 'valid_thru', 'order_no', 'invoice_no', 'invoice_date',
-        'budget_info', 'manufacturer', 'manufacturer__manufacturer_kind',
-        'region', 'office_infrastructure', TagsListFilter
+        'licence_type', 'service_env', 'valid_thru', 'order_no', 'invoice_no',
+        'invoice_date', 'budget_info', 'manufacturer',
+        'manufacturer__manufacturer_kind', 'region',
+        'office_infrastructure', TagsListFilter
     ]
     date_hierarchy = 'created'
     list_display = [
@@ -106,7 +107,7 @@ class LicenceAdmin(
         'manufacturer', 'licence_type', 'property_of', 'software',
         'number_bought', 'invoice_no', 'invoice_date', 'valid_thru',
         'order_no', 'price', 'accounting_id', 'provider', 'service_env', 'niw',
-        'sn', 'remarks', 'budget_info', 'region'
+        'sn', 'remarks', 'budget_info', 'region', 'start_usage'
     ]
     resource_class = resources.LicenceResource
     _invoice_report_name = 'invoice-licence'
@@ -128,7 +129,7 @@ class LicenceAdmin(
             'fields': (
                 'order_no', 'invoice_no', 'price', 'depreciation_rate',
                 'invoice_date', 'number_bought', 'used', 'free',
-                'accounting_id', 'budget_info', 'provider',
+                'accounting_id', 'start_usage', 'budget_info', 'provider',
                 'office_infrastructure', 'property_of'
             )
         }),

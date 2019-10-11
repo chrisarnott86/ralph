@@ -1,3 +1,247 @@
+ralph (20191001.1) bionic; urgency=medium
+
+  [ lukaszkarykowski ]
+  * Changes about electronic give out for SIMCards. (#3481)
+
+ -- Roman Prykhodchenko <roman.prykhodchenko@allegro.pl>  Tue, 01 Oct 2019 11:51:59 +0000
+
+ralph (20190814.1) bionic; urgency=medium
+
+  * change trade mark's "valid to" field to optional (#3480)
+
+ -- Marek Bleschke <marek.bleschke@allegro.pl>  Wed, 14 Aug 2019 06:12:39 +0000
+
+ralph (20190807.1) bionic; urgency=medium
+
+  [ vi4m Marcin Kliks ]
+  * Update LICENSE
+
+  [ Roman Prykhodchenko ]
+  * Update LICENSE
+  * Update LICENSE
+  * Create a trademark notice
+
+  [ Maciej Skorczewski ]
+  * RAS-1505 - Add service env do filters in licences admin (#3474)
+
+  [ Marek Bleschke ]
+  * prevent deleting cloud projects with children (#3478)
+
+  [ Damian Blejwas ]
+  * Trademarks list and filters changes (#3477)
+
+ -- Marek Bleschke <marek.bleschke@allegro.pl>  Wed, 07 Aug 2019 05:59:16 +0000
+
+ralph (20190627.1) bionic; urgency=medium
+
+  [ Szymon Jasinski ]
+  * Custom handler404 (#3469)
+
+ -- Szymon Jasinski <szymon.jasinski@allegro.pl>  Thu, 27 Jun 2019 07:24:09 +0000
+
+ralph (20190625.1) bionic; urgency=medium
+
+  [ Tomasz Ziarko ]
+  * Cloud images - support duplicated names
+
+ -- Szymon Jasinski <szymon.jasinski@allegro.pl>  Tue, 25 Jun 2019 12:18:11 +0000
+
+ralph (20190624.1) bionic; urgency=medium
+
+  [ Tomasz Ziarko ]
+  * Add cloud images support
+
+ -- Roman Prykhodchenko <roman.prykhodchenko@allegro.pl>  Mon, 24 Jun 2019 12:45:45 +0000
+
+ralph (20190618.1) bionic; urgency=medium
+
+  * Simplify package building documentation
+
+ -- Roman Prykhodchenko <roman.prykhodchenko@allegro.pl>  Tue, 18 Jun 2019 11:13:47 +0000
+
+ralph (20190617.1) bionic; urgency=medium
+
+  [ Yixing Yan ]
+  * Update mysql image version
+
+  [ Szymon Jasinski ]
+  * Use proper line break filter
+
+  [ Roman Prykhodchenko ]
+  * Searching and filtering cloud flavors by flavor_id
+
+ -- Roman Prykhodchenko <me@romcheg.me>  Mon, 17 Jun 2019 10:58:44 +0000
+
+ralph (20190527.1) bionic; urgency=medium
+
+  [ Szymon Jasinski ]
+  * fix redis settings (#3458)
+
+ -- Szymon Jasinski <szymon.jasinski@allegro.pl>  Mon, 27 May 2019 15:10:53 +0000
+
+ralph (20190524.2) bionic; urgency=medium
+
+  [ Szymon Jasinski ]
+  * fix #3449
+
+  [ Szymon Jasinski ]
+  * Upgrade Redis and Sentinel related packages and configuration (#3452)
+
+  [ Roman Prykhodchenko ]
+  * Use git author for Debian changelog
+
+ -- Damian Blejwas <damian.blejwas@allegro.pl>  Fri, 24 May 2019 12:50:25 +0000
+
+ralph (20190524.1) bionic; urgency=medium
+
+  [ Damian Blejwas ]
+  * Fix naming of IMEI fields
+
+  [ Szymon Jasinski ]
+  * Fix user equipment view (#3454)
+
+ -- Marek Bleschke <marek.bleschke@allegro.pl>  Fri, 24 May 2019 08:54:58 +0000
+
+ralph (20190515.1) bionic; urgency=medium
+
+  [ Maciej Skorczewski ]
+  * Eliminate MX and TXT records from checking_type function
+
+  [ Marek Bleschke ]
+  * Replace quotation to inches unicode sign in model name for buyout link
+
+  [ Damian Blejwas ]
+  * Add IMEI2 field
+
+ -- Roman Prykhodchenko <me@romcheg.me>  Wed, 15 May 2019 09:52:10 +0000
+
+ralph (20190508.1) bionic; urgency=medium
+
+  [ Marek Bleschke ]
+  * Show configuration path for cloud hosts. (#3445)
+
+  [  Marcin Kliks (vi4m) ]
+  * Documentation: Add ralph forum link
+
+  [ Yixing Yan (yanyx) ]
+  * Fix the development env setup steps (#3447)
+
+ -- Roman Prykhodchenko <me@romcheg.me>  Wed, 08 May 2019 11:56:05 +0000
+
+ralph (20190410.2) bionic; urgency=medium
+
+  [ Roman Prykhodchenko ]
+  * Fix the documentation link in the README
+
+ -- Roman Prykhodchenko <me@romcheg.me>  Wed, 10 Apr 2019 12:50:17 +0000
+
+ralph (20190410.1) bionic; urgency=medium
+
+  [ Maciej Skorczewski ]
+  * RAS-1433 | Fix bug in invoice report and add start usage in bulk edit (#3440)
+
+ -- Damian Blewas <damian.blejwas@gmail.com>  Wed, 10 Apr 2019 09:15:50 +0000
+
+ralph (20190313.1) bionic; urgency=medium
+
+  [ Szymon Jasinski ]
+  * Revert "RAS-1296 - handle empty/incorrect payload from dnsaas (#3381)"
+
+ -- Roman Prykhodchenko <me@romcheg.me>  Wed, 13 Mar 2019 09:15:31 +0000
+
+ralph (20190312.1) bionic; urgency=medium
+
+  [ Roman Prykhodchenko ]
+  * Display security scan status in base object lists
+
+  [ Maciej Skorczewski ]
+  * Deleted _ from TradeMarkCountry class
+
+ -- Roman Prykhodchenko <me@romcheg.me>  Tue, 12 Mar 2019 10:26:47 +0000
+
+ralph (20190308.1) bionic; urgency=medium
+
+  [ Roman Prykhodchenko ]
+  * Document development environment
+  * Fix development status (#3430)
+  * Implement snapshot builds for docker images
+
+  [ Maciej Skorczewski ]
+  * Add Registering Institution and Country into Trade Marks model (#3415)
+
+ -- Roman Prykhodchenko <me@romcheg.me>  Fri, 08 Mar 2019 12:49:59 +0000
+
+ralph (20190306.1) bionic; urgency=medium
+
+  [ Arkadiusz Adamski ]
+  * Fix ``KeyError`` exception - dashboards
+
+  [ Roman Prykhodchenko ]
+  * Remove Vagrant support
+  * Remove obsolete packging code
+  * Fix labels for static container (Closes: #3428)
+
+  [ mahomahomaho ]
+  * Handle empty/incorrect payload from dnsaas (#3381)
+
+  [ Russell Clare ]
+  * Update installation.md
+
+  [ Maciej Skorczewski ]
+  * Add start_usage in licences model (#3406)
+
+  [ ahaupt ]
+  * Make network vlan searchable (#3426)
+
+ -- Roman Prykhodchenko <me@romcheg.me>  Wed, 06 Mar 2019 10:21:34 +0000
+
+ralph (20190221.1) bionic; urgency=medium
+
+  [ Szymon Jasinski ]
+  * Fix docker static build (#3410)
+
+  [ vi4m Marcin Kliks ]
+  * SSL Certificates API (#3413)
+
+ -- Mracin Kliks <marcin.kliks@icloud.com>  Thu, 21 Feb 2019 14:19:39 +0000
+
+ralph (20190215.1) bionic; urgency=medium
+
+  [ mahomahomaho ]
+  * Better wording of back office front boxes (#3373)
+
+  [ Szymon Jasinski ]
+  * Docker nginx (#3409)
+
+ -- Szymon Jasinski <szymon@szymi.com> Fri, 15 Feb 2019 12:39:00 +0000
+
+ralph (20190208.1) bionic; urgency=medium
+
+  [ mahomahomaho ]
+  * inkpy in docker-compose (#3369)
+  * from_email in EmailContext (#3367)
+
+  [ Maciej Skorczewski ]
+  * Add model__name to Asset relations data center report (#3368)
+  * Add field "start_usage" in asset model (#3378)
+  * Buyout button in MyEquipmet view (#3346)
+
+  [ Szymon Jasinski ]
+  * documentation fix (#3404)
+
+ -- Szymon Jasinski <szymon@szymi.com>  Fri, 08 Feb 2019 12:57:53 +0000
+
+ralph (20190201.1) bionic; urgency=medium
+
+  [ Roman Prykhodchenko ]
+  * Switch to the new deb repository
+  * Allow to parametrize Gunicorn timeout (#3402)
+
+  [ Szymon Jasinski ]
+  * keep db settings on upgrade (#3399)
+
+ -- Roman Prykhodchenko <me@romcheg.me>  Fri, 01 Feb 2019 17:04:39 +0000
+
 ralph (20190124.2) bionic; urgency=medium
 
   [ Roman Prykhodchenko ]
